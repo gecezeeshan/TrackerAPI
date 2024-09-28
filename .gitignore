@@ -1,0 +1,45 @@
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing coverage reports
+/coverage
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production
+/build
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# dotenv environment variable files
+.env
+.env.test
+.env.production
+
+# Logs
+logs
+*.log
+logs/*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea
+.vscode
+
+# TypeScript cache
+*.tsbuildinfo

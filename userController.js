@@ -22,6 +22,7 @@ const createUser = (req, res) => {
   );
 };
 
+
 // Get all users
 const getAllUsers = (req, res) => {
   db.all(`SELECT * FROM users`, [], (err, rows) => {
